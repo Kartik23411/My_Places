@@ -22,7 +22,6 @@ import com.example.myplaces.ui.theme.MyPlacesTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        Places.initialize(applicationContext, "AIzaSyDdACC6hmuzjJpukJUjm67CN8vqxprFZMk")
         enableEdgeToEdge()
         setContent {
             val navController = rememberNavController()
